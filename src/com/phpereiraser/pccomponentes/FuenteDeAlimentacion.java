@@ -1,12 +1,10 @@
 package com.phpereiraser.pccomponentes;
 
-public class PlacaBase {
-
+public class FuenteDeAlimentacion {
     private Integer id;
-
     private String brand;
-
     private String model;
+    private String Watts;
 
     public Integer getId() {
         return id;
@@ -15,6 +13,7 @@ public class PlacaBase {
     public void setId(Integer id) {
         this.id = id;
     }
+
 
     public String getBrand() {
         return brand;
@@ -31,5 +30,9 @@ public class PlacaBase {
     public void setModel(String model) {
         this.model = model;
     }
+
+
+    public  String getWatts(){return brand;}
+    public  void  setWatts(String Watts) {this.Watts = Watts;}
 
 }

@@ -1,6 +1,6 @@
 package com.phpereiraser.pccomponentes;
 
-public class PlacaBase {
+public class VentiladorCPU {
 
     private Integer id;
 

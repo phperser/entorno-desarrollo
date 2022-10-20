@@ -1,11 +1,8 @@
 package com.phpereiraser.pccomponentes;
 
-public class PlacaBase {
-
+public class Altavoces {
     private Integer id;
-
     private String brand;
-
     private String model;
 
     public Integer getId() {
@@ -15,6 +12,7 @@ public class PlacaBase {
     public void setId(Integer id) {
         this.id = id;
     }
+
 
     public String getBrand() {
         return brand;
@@ -31,5 +29,4 @@ public class PlacaBase {
     public void setModel(String model) {
         this.model = model;
     }
-
 }

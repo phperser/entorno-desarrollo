@@ -1,11 +1,8 @@
 package com.phpereiraser.pccomponentes;
 
-public class PlacaBase {
-
+public class Teclado {
     private Integer id;
-
     private String brand;
-
     private String model;
 
     public Integer getId() {
@@ -15,6 +12,7 @@ public class PlacaBase {
     public void setId(Integer id) {
         this.id = id;
     }
+
 
     public String getBrand() {
         return brand;
